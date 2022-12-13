@@ -1,4 +1,7 @@
+package Collection2;
 import java.util.ArrayList;
+
+import Collection1.Dog;
 
 public class DogList {
     ArrayList<Dog> dogList = new ArrayList<>();

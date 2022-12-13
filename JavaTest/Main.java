@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+import Collection1.Dog;
+import Collection2.DogList;
+
 public class Main {
 
     // Method used to print out the DogList names.
@@ -32,7 +35,6 @@ public class Main {
         /**
          * Initialize a new instance of the main function.
          * Uses a void function to print out the names of the dog in the DogList
-         * result: Prints out the entire dog list.
          */
         Main m = new Main();
         int listSize = l.size();

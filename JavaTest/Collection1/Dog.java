@@ -1,5 +1,6 @@
-class Dog {
-    String name;
+package Collection1;
+public class Dog {
+    public String name;
     String breed;
     int age;
     String color;
