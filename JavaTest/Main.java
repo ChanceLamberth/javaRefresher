@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 import Collection1.Dog;
 import Collection2.DogList;
+import java.sql.Timestamp;
 
 public class Main {
 
@@ -13,12 +14,18 @@ public class Main {
     }
 
     public static void main(String[] args) {
+
+        // TimestampFormatter tsf = new TimestampFormatter();
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        System.out.println(timestamp); 
+
+        
+
         // Creating Dog Objects
         Dog test = new Dog("Fluffy", "papillon", 5, "white");
         Dog test2 = new Dog ("Stella", "terrier", 2, "brown");
         Dog test3 = new Dog();
         Dog test4 = new Dog("Peaches", "alien", 4, "green?");
-
 
         // Sending Dog objects to a new class that groups all the dogs together.
         ArrayList<Dog> l = new ArrayList<>();
